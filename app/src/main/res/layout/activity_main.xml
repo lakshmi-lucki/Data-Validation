@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="Validation Demo!"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:hint="Your Name"
+        android:textColor="@color/teal_200"
+        android:textSize="25sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:hint="Your Email"
+        android:textColor="@color/teal_200"
+        android:textSize="25sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+
+        android:background="@color/cardview_shadow_end_color"
+        android:hint="Your Mobile No"
+        android:textColor="@color/teal_200"
+        android:textSize="25sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+
+        android:background="@color/cardview_shadow_end_color"
+        android:hint="Your DOB"
+        android:textColor="@color/teal_200"
+        android:textSize="25sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+
+        android:background="@color/cardview_shadow_end_color"
+        android:hint="Your Age"
+        android:textColor="@color/teal_200"
+        android:textSize="25sp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:text="SUBMIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>

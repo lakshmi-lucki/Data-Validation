@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Validation</string>
+
+    <string name="Nameerror">Enter a valid name</string>
+    <string name="Emailerror">Enter a valid Email</string>
+    <string name="DOBerror">Enter a valid DOB</string>
+    <string name="Phoneerror">Enter a valid Phone number</string>
+    <string name="Ageerror">Enter a valid Phone</string>
+</resources>
